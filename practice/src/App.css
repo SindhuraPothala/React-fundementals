@@ -1,0 +1,7 @@
+ .maincontainer{
+    display:flex;
+    border-radius: 25px;
+    padding:50px;
+    margin:10px;
+    gap:50px;
+ }
