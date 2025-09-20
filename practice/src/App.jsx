@@ -55,7 +55,7 @@ function App() {
     <input type="text" placeholder="Type your name" onChange={handleChange}/>
     <button onClick={()=>handleClick("Sindhura")}>Click Me</button>}*/}
       <form onSubmit={handleSubmit}>
-        <input type="text" name="email" placeholder="Enter your email" onChange={handleChange} />
+        <input type="text" name="email" value={email} placeholder="Enter your email" onChange={handleChange} />
         <input type="text" name="password" placeholder="Enter your Password" onChange={handleChange} />
 
         <button type="submit">Login</button>
